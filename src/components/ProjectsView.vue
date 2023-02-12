@@ -74,26 +74,31 @@ export default defineComponent({
                 <img src="/img/Artifact.png" class="w-[195px] h-[195px]" alt="" />
             </div>
             <div v-show="mono" class="md:hidden relative top-[-140px] left-[-17px] mx-auto justify-end">
-                <div class="w-[118.8px] mx-auto h-[73.19px]"><img src="/img/Mono.png" class="w-fit h-fit" alt="" />
+                <div class="w-fit mx-auto h-fit"><img src="/img/Mono.png" class="w-[118.8px] mx-auto h-[73.19px]"
+                        alt="" />
                 </div>
             </div>
             <div v-show="alts" class="md:hidden relative top-[-140px] left-[-17px] mx-auto justify-end">
-                <div class="w-[118.8px] mx-auto h-[73.19px]"><img src="/img/Alts.png" class="w-fit h-fit" alt="" />
+                <div class="w-fit mx-auto h-fit"><img src="/img/Alts.png" class="w-[118.8px] mx-auto h-[73.19px]"
+                        alt="" />
                 </div>
             </div>
             <div v-show="nfts" class="md:hidden relative top-[-140px] left-[-17px] mx-auto justify-end">
-                <div class="w-[118.8px] mx-auto h-[73.19px]"><img src="/img/NFT.png" class="w-fit h-fit" alt="" /></div>
+                <div class="w-fit mx-auto h-fit"><img src="/img/NFT.png" class="w-[118.8px] mx-auto h-[73.19px]"
+                        alt="" /></div>
             </div>
             <div v-show="norebase" class="md:hidden relative top-[-140px] left-[-17px] mx-auto justify-end">
-                <div class="w-[118.8px] mx-auto h-[73.19px]"><img src="/img/Norebase.png" class="w-fit h-fit" alt="" />
+                <div class="w-fit mx-auto h-fit"><img src="/img/Norebase.png" class="w-[118.8px] mx-auto h-[73.19px]"
+                        alt="" />
                 </div>
             </div>
             <div v-show="easy" class="md:hidden relative top-[-140px] left-[-17px] mx-auto justify-end">
-                <div class="w-[118.8px] mx-auto h-[73.19px]"><img src="/img/Easybuddy.png" class="w-fit h-fit" alt="" />
+                <div class="w-fit mx-auto h-fit"><img src="/img/Easybuddy.png" class="w-[118.8px] mx-auto h-[73.19px]"
+                        alt="" />
                 </div>
             </div>
             <div v-show="tred" class="md:hidden relative top-[-140px] left-[-17px] mx-auto justify-end">
-                <div class="w-[118.8px] mx-auto h-[73.19px]"><img src="/img/TredFinance.png" class="w-fit h-fit"
+                <div class="w-fit mx-auto h-fit"><img src="/img/TredFinance.png" class="w-[118.8px] mx-auto h-[73.19px]"
                         alt="" />
                 </div>
             </div>
