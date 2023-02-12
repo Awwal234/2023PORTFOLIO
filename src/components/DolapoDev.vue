@@ -1,7 +1,11 @@
 <script lang="ts">
 import { defineComponent } from 'vue';
 export default defineComponent({
-
+    methods: {
+        scrollbottom() {
+            window.scrollTo(0, document.body.scrollHeight);
+        }
+    }
 });
 </script>
 
@@ -10,7 +14,7 @@ export default defineComponent({
         <div class="w-fit h-fit">
             <img src="/img/dolaposee.png" class="w-full md:w-[98%]" alt="" />
         </div>
-        <div class="hidden cursor-pointer md:flex">
+        <div @click="scrollbottom" class="hidden cursor-pointer md:flex">
             <img src="/img/scrollicon.svg" class="" alt="" />
         </div>
     </div>

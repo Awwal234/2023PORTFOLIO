@@ -12,7 +12,15 @@ export default defineComponent({
         }
     },
     methods: {
-
+        github() {
+            window.location.href = "https://github.com/Awwal234";
+        },
+        twitter() {
+            window.location.href = "https://twitter.com/Dolapodev";
+        },
+        gmail() {
+            window.location.href = "mailto:fabowalemuhawwal@gmail.com";
+        },
     },
 });
 </script>
@@ -76,7 +84,7 @@ export default defineComponent({
         </div>
         <!--end scroll-->
         <!--footer-->
-        <div
+        <div id="footer"
             class="py-[48px] md:flex md:items-center space-y-[24px] md:space-y-[0px] md:justify-between px-[40px] w-full bg-[#ECEBE9] md:py-[66px] md:px-[56px]">
             <div
                 class="mx-auto text-center md:text-left md:mx-[0px] font-['panchang'] font-[600] text-[#221115] text-[14px]">
@@ -85,14 +93,14 @@ export default defineComponent({
             <div
                 class="md:space-x-[8px] md:flex md:items-center space-y-[24px] md:space-y-[0px] w-full md:w-fit h-fit mx-auto md:mx-[0px]">
                 <div class="p-[4px] w-full md:fit text-center bg-[#C9C9C9]">
-                    <div
+                    <div @click="github"
                         class="p-[8px] font-[700] font-['panchang'] text-[14px] text-[#221115] md:text-[] w-full md:fit text-center bgbtn">
                         Github
                     </div>
                 </div>
                 <!---->
                 <div class="p-[4px] w-full md:fit text-center bg-[#C9C9C9]">
-                    <div
+                    <div @click="twitter"
                         class="p-[8px] font-[700] font-['panchang'] text-[14px] text-[#221115] md:text-[] w-full md:fit text-center bgbtn">
                         Twitter
                     </div>
@@ -108,22 +116,22 @@ export default defineComponent({
                 <!----->
                 <!---->
                 <div class="p-[4px] w-full md:fit text-center bg-[#C9C9C9]">
-                    <div
+                    <div @click="gmail"
                         class="p-[8px] font-[700] font-['panchang'] text-[14px] text-[#221115] md:text-[] w-full md:fit text-center bgbtn">
-                        Instagram
+                        Gmail
                     </div>
                 </div>
                 <!----->
             </div>
             <div
                 class="font-[700] md:hidden lg:flex text-[14px] text-[#221115] font-['panchang'] md:text-[14px] mx-auto md:mx-[0px] text-center md:text-left">
-                Design by <span class="underline">Sonofigma</span>
+                Design by <span class="underline"> Sonofigma</span>
             </div>
         </div>
         <!--end footer-->
         <div
             class="font-[700] w-fit hidden mt-[10px] md:block md:pb-[30px] lg:hidden text-[14px] text-[#221115] font-['panchang'] md:text-[14px] mx-auto text-center">
-            Design by <span class="underline">Sonofigma</span>
+            Design by<span class="underline"> Sonofigma</span>
         </div>
     </div>
 </template>
@@ -167,5 +175,10 @@ export default defineComponent({
 
 .bgbtn {
     background: conic-gradient(from 158.21deg at 42.46% 0%, #ECEBE9 0deg, #D3D3D3 360deg);
+    cursor: pointer;
+}
+
+.bgbtn:hover {
+    background: conic-gradient(from 201.16deg at 68.72% 0%, #ECEBE9 0deg, rgba(236, 235, 233, 0) 360deg);
 }
 </style>

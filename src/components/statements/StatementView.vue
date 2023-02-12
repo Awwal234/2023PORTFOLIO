@@ -49,14 +49,14 @@ export default defineComponent({
             <!--second shipping-->
             <div class="w-full h-fit lg:h-[782px] tree md:w-[45%] p-[16px] md:px-[70px]">
                 <div class="mt-[126px] mx-auto w-fit h-fit md:mt-[97px]">
-                    <img src="/img/skate.png" class="w-[162px] h-[238px] md:w-[243px] md:h-[320px]" alt="" />
+                    <img src="/img/skate.png" class="w-[162px] skate h-[238px] md:w-[243px] md:h-[320px]" alt="" />
                 </div>
                 <div class="mt-[-90px] w-fit h-fit md:mt-[-120px]">
-                    <img src="/img/alco.png" class="w-[162px] h-[238px] md:w-[243px] md:h-[320px]" alt="" />
+                    <img src="/img/alco.png" class="w-[162px] alco h-[238px] md:w-[243px] md:h-[320px]" alt="" />
                 </div>
                 <div class="flex relative mt-[-160px] md:mt-[-200px] justify-end w-full h-fit">
                     <div class="w-fit h-fit">
-                        <img src="/img/hello.png" class="w-[162px] h-[238px] md:w-[243px] md:h-[320px]" alt="" />
+                        <img src="/img/hello.png" class="w-[162px] hello h-[238px] md:w-[243px] md:h-[320px]" alt="" />
                     </div>
                 </div>
             </div>
@@ -76,5 +76,83 @@ export default defineComponent({
     background-repeat: no-repeat;
     background-position: cover;
     background-size: 100% 100%;
+}
+
+.skate {
+    animation: 2s forwards cubic-bezier(0.075, 0.82, 0.165, 1) infinite skatel;
+}
+
+.alco {
+    animation: 2s forwards cubic-bezier(0.075, 0.82, 0.165, 1) infinite alcol;
+}
+
+.hello {
+    animation: 2s forwards cubic-bezier(0.075, 0.82, 0.165, 1) infinite hellol;
+}
+
+@keyframes skatel {
+    10% {
+        top: -1px;
+        position: relative;
+    }
+
+    40% {
+        top: -8px;
+        position: relative;
+    }
+
+    60% {
+        top: -15px;
+        position: relative;
+    }
+
+    100% {
+        top: 0px;
+        position: relative;
+    }
+}
+
+@keyframes alcol {
+    10% {
+        left: -1px;
+        position: relative;
+    }
+
+    40% {
+        left: -8px;
+        position: relative;
+    }
+
+    60% {
+        left: -15px;
+        position: relative;
+    }
+
+    100% {
+        left: 0px;
+        position: relative;
+    }
+}
+
+@keyframes hellol {
+    10% {
+        top: 1px;
+        position: relative;
+    }
+
+    40% {
+        top: 8px;
+        position: relative;
+    }
+
+    60% {
+        top: 15px;
+        position: relative;
+    }
+
+    100% {
+        top: 0px;
+        position: relative;
+    }
 }
 </style>
