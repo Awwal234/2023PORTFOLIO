@@ -65,7 +65,7 @@ export default defineComponent({
                     <div class="w-[237px] h-[146px] "><img src="/img/Easybuddy.png" class="w-fit h-fit" alt="" /></div>
                 </div>
                 <div v-show="tred" class="hidden md:flex relative top-[-270px] left-[-90px] justify-end">
-                    <div class="w-[237px] h-[146px] "><img src="/img/Tred Finance.png" class="w-fit h-fit" alt="" />
+                    <div class="w-[237px] h-[146px] "><img src="/img/TredFinance.png" class="w-fit h-fit" alt="" />
                     </div>
                 </div>
             </div>
@@ -93,7 +93,7 @@ export default defineComponent({
                 </div>
             </div>
             <div v-show="tred" class="md:hidden relative top-[-140px] left-[-17px] mx-auto justify-end">
-                <div class="w-[118.8px] mx-auto h-[73.19px]"><img src="/img/Tred Finance.png" class="w-fit h-fit"
+                <div class="w-[118.8px] mx-auto h-[73.19px]"><img src="/img/TredFinance.png" class="w-fit h-fit"
                         alt="" />
                 </div>
             </div>
