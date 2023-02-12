@@ -50,22 +50,22 @@ export default defineComponent({
                     </div>
                 </div>
                 <div v-show="mono" class="hidden md:flex relative top-[-270px] left-[-90px] justify-end">
-                    <div class="w-[237px] h-[146px] "><img src="/img/Mono.png" class="w-fit h-fit" alt="" /></div>
+                    <div class="w-fit h-fit"><img src="/img/Mono.png" class="w-[237px] h-[146px]" alt="" /></div>
                 </div>
                 <div v-show="alts" class="hidden md:flex relative top-[-270px] left-[-90px] justify-end">
-                    <div class="w-[237px] h-[146px] "><img src="/img/Alts.png" class="w-fit h-fit" alt="" /></div>
+                    <div class="w-fit h-fit"><img src="/img/Alts.png" class="w-[237px] h-[146px]" alt="" /></div>
                 </div>
                 <div v-show="nfts" class="hidden md:flex relative top-[-270px] left-[-90px] justify-end">
-                    <div class="w-[237px] h-[146px] "><img src="/img/NFT.png" class="w-fit h-fit" alt="" /></div>
+                    <div class="w-fit h-fit"><img src="/img/NFT.png" class="w-[237px] h-[146px]" alt="" /></div>
                 </div>
                 <div v-show="norebase" class="hidden md:flex relative top-[-270px] left-[-90px] justify-end">
-                    <div class="w-[237px] h-[146px] "><img src="/img/Norebase.png" class="w-fit h-fit" alt="" /></div>
+                    <div class="w-fit h-fit"><img src="/img/Norebase.png" class="w-[237px] h-[146px]" alt="" /></div>
                 </div>
                 <div v-show="easy" class="hidden md:flex relative top-[-270px] left-[-90px] justify-end">
-                    <div class="w-[237px] h-[146px] "><img src="/img/Easybuddy.png" class="w-fit h-fit" alt="" /></div>
+                    <div class="w-fit h-fit"><img src="/img/Easybuddy.png" class="w-[237px] h-[146px]" alt="" /></div>
                 </div>
                 <div v-show="tred" class="hidden md:flex relative top-[-270px] left-[-90px] justify-end">
-                    <div class="w-[237px] h-[146px] "><img src="/img/TredFinance.png" class="w-fit h-fit" alt="" />
+                    <div class="w-fit h-fit"><img src="/img/TredFinance.png" class="w-[237px] h-[146px]" alt="" />
                     </div>
                 </div>
             </div>
