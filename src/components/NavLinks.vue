@@ -6,6 +6,9 @@ export default defineComponent({
     mounted() {
         this.printdate()
     },
+    created(){
+        this.printdate()
+    },
     data() {
         return {
             timed: '',
