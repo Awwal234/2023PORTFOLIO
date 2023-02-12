@@ -22,8 +22,8 @@ export default defineComponent({
         <div class="lg:flex overflow-hidden w-full">
             <div class="w-fit">
                 <div class="flex items-top md:items-top">
-                    <div class="w-[68px] h-[109px] md:w-[105px] md:h-[190px]"><img src="/img/coolkid.png"
-                            class="w-fit h-fit" alt="" /></div>
+                    <div class="w-fit h-fit"><img src="/img/coolkid.png"
+                            class="w-[68px] h-[109px] md:w-[105px] md:h-[190px]" alt="" /></div>
                     <div>
                         <div
                             class="font-['Panchang'] leading-[97.68px] md:leading-[192px] font-[700] text-[#221115] text-[74px] md:text-[140px] lg:text-[186px]">
@@ -40,8 +40,8 @@ export default defineComponent({
                     PIXEL
                 </div>
             </div>
-            <div class="md:h-[324px] h-[233px]">
-                <img src="/img/codingkid.png" class="h-fit" alt="" />
+            <div class="h-fit">
+                <img src="/img/codingkid.png" class="md:h-[324px] h-[233px]" alt="" />
             </div>
         </div>
         <!--end 1 flex-->
@@ -49,9 +49,10 @@ export default defineComponent({
         <div class="lg:flex md:mt-[10px] mt-[1px] overflow-hidden w-full">
             <div class="w-fit h-fit">
                 <div class="flex items-top md:items-top">
-                    <div class="w-[92px] h-[100%] md:w-[200px] md:h-[313px] lg:w-[539px] lg:h-[313px]"><img
-                            src="/img/lovekid.png" class="w-fit h-fit" alt="" /></div>
-                    <div class="h-full">
+                    <div class="w-fit h-fit"><img src="/img/lovekid.png"
+                            class="w-[102px] h-[108px] md:w-[200px] md:h-[313px] lg:w-[539px] lg:h-[313px]" alt="" />
+                    </div>
+                    <div class="h-full w-[40%]">
                         <div
                             class="font-['Panchang'] leading-[97.68px] md:leading-[192px] font-[700] text-[#221115] text-[74px] md:text-[140px] lg:text-[186px]">
                             CREA

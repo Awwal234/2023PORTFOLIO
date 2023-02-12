@@ -43,10 +43,10 @@ export default defineComponent({
     <div class="mt-[72px] md:mt-[88px] px-[16px] md:px-[56px]">
         <div class="md:flex items-stretch">
             <div class="w-full md:w-[50%] md:h-fit">
-                <div class="w-full"><img src="/img/AAkid.png" class="w-fit h-fit" alt="" /></div>
+                <div class="w-fit h-fit"><img src="/img/AAkid.png" class="md:w-[674px] md:h-[653px]" alt="" /></div>
                 <div class="w-full hidden md:flex relative mt-[-150px] left-[10px]  justify-end">
-                    <div class="w-[389px] h-[389px]">
-                        <img src="/img/Artifact.png" class="w-fit h-fit" alt="" />
+                    <div class="w-fit h-fit">
+                        <img src="/img/Artifact.png" class="w-[389px] h-[389px]" alt="" />
                     </div>
                 </div>
                 <div v-show="mono" class="hidden md:flex relative top-[-270px] left-[-90px] justify-end">
@@ -70,8 +70,8 @@ export default defineComponent({
                 </div>
             </div>
             <!----->
-            <div class="md:hidden mx-auto relative mt-[-110px] w-[195px] h-[195px]">
-                <img src="/img/Artifact.png" class="w-fit h-fit" alt="" />
+            <div class="md:hidden mx-auto relative mt-[-110px] w-fit h-fit">
+                <img src="/img/Artifact.png" class="w-[195px] h-[195px]" alt="" />
             </div>
             <div v-show="mono" class="md:hidden relative top-[-140px] left-[-17px] mx-auto justify-end">
                 <div class="w-[118.8px] mx-auto h-[73.19px]"><img src="/img/Mono.png" class="w-fit h-fit" alt="" />

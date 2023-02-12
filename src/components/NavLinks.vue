@@ -66,7 +66,7 @@ export default defineComponent({
         <div v-show="menu" class="md:hidden bg-[#221115] w-full fixed top-0 py-[40px] left-0 z-[1000] h-full">
             <div class="px-[16px] flex items-center justify-between">
                 <div class="w-fit h-fit"><img src="/img/menulogo.svg" class="" alt="" /></div>
-                <div class="w-[46px] h-[46px]" @click="togglemenu"><img src="/img/menuno.png" class="w-fit h-fit"
+                <div class="w-fit h-fit" @click="togglemenu"><img src="/img/menuno.png" class="w-[46px] h-[46px]"
                         alt="" /></div>
             </div>
             <div class="border-[1px] border-[#30181D] w-full mt-[24px]"></div>
