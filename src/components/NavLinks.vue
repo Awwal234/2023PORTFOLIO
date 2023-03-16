@@ -3,9 +3,6 @@ import { defineComponent } from 'vue';
 export default defineComponent({
     components: {
     },
-    mounted() {
-        this.printdate()
-    },
     created(){
         this.printdate()
     },
